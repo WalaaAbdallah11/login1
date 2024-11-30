@@ -1,0 +1,43 @@
+.bg-color{
+    background-color: #24353F;
+}
+.main-color{
+    color: #17A2B8;
+}
+.w-60{
+    width: 65%;
+}
+.w-80{
+    width: 72%;
+}
+nav{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+.form-control:focus {
+    color: #24353F;
+    background-color: var(--bs-body-bg);
+    border-color: #24353F;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem transparent;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+.p-size{
+  font-size: 17px;
+  font-weight: 400;
+}
+.shadow {     
+    --bs-box-shadow: 0 0.5rem 2rem rgba(10, 9, 9, 0.658);
+}
+.navbar-collapse .btn-outline-warning {
+    --bs-btn-color: #b6abab;
+    --bs-btn-active-color: white;
+    --bs-btn-hover-color: white;
+}
+.btn-outline-info {
+    --bs-btn-hover-color: #fff;
+    --bs-btn-active-color: #fff;
+}
